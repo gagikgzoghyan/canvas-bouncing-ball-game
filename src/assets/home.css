@@ -11,7 +11,7 @@
     width: 75%;
     height: 75%;
     border-radius: 5px;
-    border: 1px solid #000;
+    border: 1px solid hsla(160, 100%, 37%, 1);
 }
 
 .home button {
