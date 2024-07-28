@@ -1,0 +1,37 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+}
+
+.home .canvas-container {
+    width: 75%;
+    height: 75%;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.home button {
+    cursor: pointer;
+    font-size: 18px;
+    width: 20%;
+    padding: 20px;
+    border: 2px solid hsla(160, 100%, 37%, 1);
+    border-radius: 5px;
+    background-color: #fff;
+    color: hsla(160, 100%, 37%, 1)
+}
+
+.home button:hover {
+    color: #fff;
+    background-color: hsla(160, 100%, 37%, 1);
+}
+
+@media (max-width: 736px) {
+    .home button {
+        width: auto;
+    }
+}
